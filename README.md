@@ -63,14 +63,14 @@ The system follows a standard RAG pipeline:
 
 ## Repository Structure
 Alice-RAG/
-├── alice_kb.csv          # Curated knowledge cards
-├── build_index.py        # Builds vector index
-├── alice_index.json      # Generated embedding index
-├── ask.py                # Interactive Q&A interface
-├── eval_questions.txt    # Evaluation question set
-├── evaluate.py           # Evaluation runner
-├── eval_results.csv      # Evaluation output
-├── README.md
+- alice_kb.csv          # Curated knowledge cards
+- build_index.py        # Builds vector index
+- alice_index.json      # Generated embedding index
+- ask.py                # Interactive Q&A interface
+- eval_questions.txt    # Evaluation question set
+- evaluate.py           # Evaluation runner
+- eval_results.csv      # Evaluation output
+- README.md
 
 
 ## How to Run
