@@ -1,8 +1,8 @@
 # Alice RAG. Local Retrieval-Augmented Generation Demo
 
-I made this project to create my first local Retrieval-Augmented Generation (RAG) system. I decided to use the public-domain literary corpus, Alice’s Adventures in Wonderland, This is because everyone is universally familiar with the general contents and it is also public domain. I also used Ollama to run the LLM localy without API dependencies. The gaurdrails and pipeline are part of my code. This project can be ealisy swappeed to a hosted LLM.
+I made this project to create my first local Retrieval-Augmented Generation (RAG) system. I decided to use the public-domain literary corpus, Alice’s Adventures in Wonderland, This is because everyone is universally familiar with the general contents and it is also public domain. I also used Ollama to run the LLM locally without API dependencies. The guardrails and pipeline are part of my code. This project can be easily swapped to a hosted LLM.
 
-I focused on getting the AI to give answers that are grounded and do not branch off into metaphorical language or hallucinate. One that refuses an answer when it does not khave enough information. 
+I focused on getting the AI to give answers that are grounded and do not branch off into metaphorical language or hallucinate. One that refuses an answer when it does not have enough information.  
 
 
 ## Project Goals
