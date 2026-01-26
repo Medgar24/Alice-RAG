@@ -1,0 +1,62 @@
+Alice RAG
+
+1.
+python -m pip
+
+2.
+conda activate alice-rag
+
+3.
+cd "C:\Users\cash america\Documents\Work\Practice\AI\Alice RAG>"
+
+4.
+result: (alice-rag) PS C:\Users\cash america\Documents\Work\Practice\AI\Alice RAG>
+
+5.
+python ask.py
+
+------
+
+Questions for LLM
+
+Try a question like:
+
+Why does time not work at the tea party?
+
+Who is the Queen of Hearts?
+
+How does Alice enter Wonderland?
+
+
+
+
+
+
+--------- if error
+1.
+
+conda activate alice-rag
+
+
+Step 2: Fix pip inside the environment
+
+Run exactly this:
+
+2.
+python -m ensurepip --upgrade
+python -m pip install --upgrade pip
+
+3.
+python -m pip --version
+
+4.
+pip 25.x from ...\anaconda3\envs\alice-rag\lib\site-packages
+
+5.
+python -m pip install sentence-transformers
+
+6. test:
+python -c "from sentence_transformers import SentenceTransformer; print('ok')"
+
+5. result:
+ok
